@@ -18,11 +18,19 @@ class BankAccount
 
     public function deposit($amount)
     {
+        if ($amount < 0) {
+            throw new \InvalidArgumentException('Deposit amount cannot be negative!');
+        }
+
         $this->balance += $amount;
     }
 
     public function withdraw($amount)
     {
+        if ($amount < 0) {
+            throw new \InvalidArgumentException('Withdrawal amount cannot be negative!');
+        }
+
         $this->balance -= $amount;
     }
 }

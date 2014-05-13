@@ -31,4 +31,24 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
         $account->withdraw(100);
         $this->assertSame(0, $account->getBalance());
     }
+
+    /**
+     * @expectedException InvalidArgumentException
+     * @expectedExceptionMessage Deposit amount cannot be negative!
+     */
+    public function testExceptionIsThrownWhenDepositingNegativeMoney()
+    {
+        $account = new BankAccount();
+        $account->deposit(-100);
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     * @expectedExceptionMessage Withdrawal amount cannot be negative!
+     */
+    public function testExceptionIsThrownWhenWithdrawingNegativeMoney()
+    {
+        $account = new BankAccount();
+        $account->withdraw(-100);
+    }
 }
