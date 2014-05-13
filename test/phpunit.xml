@@ -1,0 +1,10 @@
+<phpunit colors="true">
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../src/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./coverage-html" />
+    </logging>
+</phpunit>
