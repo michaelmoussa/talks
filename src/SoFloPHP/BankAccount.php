@@ -10,4 +10,9 @@ class BankAccount
     {
         $this->balance = $balance;
     }
+
+    public function getBalance()
+    {
+        return $this->balance;
+    }
 }
