@@ -31,6 +31,11 @@ class BankAccount
         $this->balance += $amount;
     }
 
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
     public function withdraw($amount)
     {
         if ($amount < 0) {
