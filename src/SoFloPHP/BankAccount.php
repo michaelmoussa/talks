@@ -4,5 +4,10 @@ namespace SoFloPHP;
 
 class BankAccount
 {
-    public $balance = 0;
+    protected $balance;
+
+    public function __construct($balance = 0)
+    {
+        $this->balance = $balance;
+    }
 }
