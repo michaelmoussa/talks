@@ -4,6 +4,8 @@ class MockingSandboxTest extends PHPUnit_Framework_TestCase
 {
     public function testMockingExample()
     {
+        $this->markTestSkipped('Skipping beyond this tag because it breaks code coverage');
+
         $mock = $this->getMockBuilder('SoFloPHP\BankAccount')
             ->getMock();
 

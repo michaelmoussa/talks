@@ -8,10 +8,25 @@ PHP 5.4+ and [Composer](https://getcomposer.org/)
 
 ## Instructions
 
+### Initial setup
 ```
 $ git clone git@github.com:michaelmoussa/soflophp-unit-testing.git
 $ cd ./soflophp-unit-testing
 $ composer install --dev
+
+### Running tests
+```
+$ cd /path/to/soflophp-unit-testing/test
+$ ../vendor/bin/phpunit .
+```
+
+### Running tests with code coverage
+```
+$ cd /path/to/soflophp-unit-testing/test
+$ ../vendor/bin/phpunit --coverage-html=./coverage-html .
+```
+
+After generating coverage, open the `index.html` file in your browser.
 
 ## Jumping Around
 
