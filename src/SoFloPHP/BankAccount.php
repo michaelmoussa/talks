@@ -20,4 +20,9 @@ class BankAccount
     {
         $this->balance += $amount;
     }
+
+    public function withdraw($amount)
+    {
+        $this->balance -= $amount;
+    }
 }

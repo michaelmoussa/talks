@@ -24,4 +24,11 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
         $account->deposit(100);
         $this->assertSame(100, $account->getBalance());
     }
+
+    public function testWithdrawingMoneyDecreasesTheBalanceByTheAmountWithdrawn()
+    {
+        $account = new BankAccount(100);
+        $account->withdraw(100);
+        $this->assertSame(0, $account->getBalance());
+    }
 }
