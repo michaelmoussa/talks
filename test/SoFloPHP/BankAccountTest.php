@@ -11,4 +11,10 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
         $account = new BankAccount();
         $this->assertSame(0, $account->getBalance());
     }
+
+    public function testAccountBalanceCanBeSetViaConstructor()
+    {
+        $account = new BankAccount(100);
+        $this->assertSame(100, $account->getBalance());
+    }
 }
