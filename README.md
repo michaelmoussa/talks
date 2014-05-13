@@ -38,3 +38,7 @@ Then `git checkout <tag-name>` to see the code relevant to that particular miles
 
 **Important Note:** You should run `composer install --dev` after every checkout in case the tag you're looking at
 also included an update to `composer.json`.
+
+## Presentation Slides
+
+* http://goo.gl/wVdH2M
