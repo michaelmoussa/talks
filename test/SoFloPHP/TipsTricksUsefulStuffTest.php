@@ -39,4 +39,15 @@ class TipsTricksUsefulStuffTest extends TestCase
             ['oh|hello|there|everyone', '|', ['oh', 'hello', 'there', 'everyone']],
         ];
     }
+
+    public function testFooIsBarIfClassUsesSomeTrait()
+    {
+        $someTraitTester = new SomeTraitTester();
+        $this->assertSame('bar', $someTraitTester->foo);
+    }
+}
+
+class SomeTraitTester
+{
+    use SomeTrait;
 }
