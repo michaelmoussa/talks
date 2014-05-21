@@ -42,4 +42,8 @@ also included an update to `composer.json`.
 
 ## Presentation Slides
 
-* http://goo.gl/wVdH2M
+* **Boca Talk:** http://goo.gl/wVdH2M
+* **Miami Talk:** http://goo.gl/xxzUOA
+
+**joind.in:** http://joind.in/11347
+
