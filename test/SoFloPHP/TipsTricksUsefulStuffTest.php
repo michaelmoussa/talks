@@ -23,4 +23,20 @@ class TipsTricksUsefulStuffTest extends TestCase
         $newAccountId = $service->persist($account);
         $this->assertEquals(1, $newAccountId);
     }
+
+    /**
+     * @dataProvider explodingStringProvider
+     */
+    public function testExplodingString($string, $delimiter, $expected)
+    {
+        $this->assertSame($expected, explode($delimiter, $string));
+    }
+
+    public function explodingStringProvider()
+    {
+        return [
+            ['foo,bar', ',', ['foo', 'bar']],
+            ['oh|hello|there|everyone', '|', ['oh', 'hello', 'there', 'everyone']],
+        ];
+    }
 }
