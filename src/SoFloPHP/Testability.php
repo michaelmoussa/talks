@@ -91,4 +91,27 @@ class Testability
     {
         return file_get_contents(PATH_TO_QUOTE_OF_THE_DAY);
     }
+
+    /**
+     * We don't want to actually make a request to /some-url every time we run our tests, but how can we mock out that
+     * call to ::get(...) to prevent that from happening? We can't. Avoid static method calls.
+     *
+     * Possible exception: Maybe you have some kind of ArrayUtils or StringUtils class with static methods - as long
+     * as those methods do things you *know* you'll never need to mock, then using them is fine, as there is no sense
+     * to be passing an instance of a utils class around everywhere.
+     */
+    public function makeExpensiveApiCall()
+    {
+        return Http::get('/some-url');
+    }
+
+    /**
+     * Basically the same as the issue with static method calls, but deserves special mention because it's such a
+     * commonly used anti-pattern.
+     */
+    public function getUsers()
+    {
+        $database = Database::getInstance();
+        return $database->query('select * from users');
+    }
 }
