@@ -52,4 +52,43 @@ class Testability
     {
         $this->bankAccountService = $bankAccountService;
     }
+
+    /**
+     * With $data as a global variable, its value could have been set *anywhere* in the application. Is $data an array?
+     * Does each element of $data have an element with the key "name"? If we run into an application error, how can we
+     * trace back to find where the value was set incorrectly? If we have no way to know the state of the variable when
+     * the live application is being run, how can our tests give us any confidence?
+     */
+    public function processTheData()
+    {
+        global $data;
+
+        foreach ($data as &$value) {
+            $value['nameInReverse'] = strrev($value['name']);
+        }
+    }
+
+    /**
+     * Basically the same as the above example, except we can be confident about what the value of our $data variable
+     * will be when the application runs - it'll be whatever it was set to when we invoked this function, because we
+     * know that it can't be modified from anywhere else in the program. Any runtime errors will lead us backwards
+     * straight to where the problem originates.
+     */
+    public function processTheDataBetter($data)
+    {
+        foreach ($data as &$value) {
+            $value['nameInReverse'] = strrev($value['name']);
+        }
+
+        return $data;
+    }
+
+    /**
+     * "PATH_TO_QUOTE_OF_THE_DAY" could be a global constant containing the path to a file. Its value is predictable,
+     * and nothing can change it randomly from anywhere in the application.
+     */
+    public function getQuoteOfTheDay()
+    {
+        return file_get_contents(PATH_TO_QUOTE_OF_THE_DAY);
+    }
 }
