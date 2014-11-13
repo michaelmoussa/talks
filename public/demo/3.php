@@ -6,7 +6,7 @@
  *
  * ab -n 10000 -c 250 "http://192.168.133.71/demo/3.php"
  *
- * Note: Be sure to run "sudo gearman-job-server-restart && php /vagrant/src/worker.php" on the worker VM.
+ * Note: Be sure to run "sudo service gearman-job-server restart && php /vagrant/src/worker.php" on the worker VM.
  */
 require __DIR__ . '/../../src/util.php';
 
