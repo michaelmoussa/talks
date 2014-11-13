@@ -12,7 +12,7 @@ This repository provides a pair of Vagrant VM configurations for running the sam
 
 * [Meetup](http://www.meetup.com/South-Florida-PHP-Users-Group/events/211330872/)
 * [joind.in](https://joind.in/12749)
-* [Slides](slides/Job Queues with Gearman - SoFloPHP (Boca).pdf)
+* [Slides](https://github.com/michaelmoussa/soflophp-gearman/raw/master/slides/Job%20Queues%20with%20Gearman%20-%20SoFloPHP%20(Boca).pdf)
 
 ## Questions / Comments?
 
