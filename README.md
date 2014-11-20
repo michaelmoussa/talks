@@ -8,12 +8,14 @@ This repository provides a pair of Vagrant VM configurations for running the sam
 
 ## Links
 
-### Boca
-
-* [Meetup](http://www.meetup.com/South-Florida-PHP-Users-Group/events/211330872/)
-* [joind.in](https://joind.in/12749)
-* [Slides](https://github.com/michaelmoussa/soflophp-gearman/raw/master/slides/Job%20Queues%20with%20Gearman%20-%20SoFloPHP%20(Boca).pdf)
+* Meetup
+** [Boca](http://www.meetup.com/South-Florida-PHP-Users-Group/events/211330872/)
+** [Miami](http://www.meetup.com/South-Florida-PHP-Users-Group/events/210211632/)
+* joind.in
+** [Boca](https://joind.in/12749)
+** [Miami](https://joind.in/12750)
+* [Slides](https://github.com/michaelmoussa/soflophp-gearman/raw/master/slides/Job%20Queues%20with%20Gearman%20-%20SoFloPHP.pdf)
 
 ## Questions / Comments?
 
-If you spot something wrong with the sample code, [open an issue](https://github.com/michaelmoussa/soflophp-gearman/issues/new). Otherwise, please feel free to e-mail or tweet any questions on Gearman I might be able to help with.
+If you spot something wrong with the sample code, [open an issue](https://github.com/michaelmoussa/soflophp-gearman/issues/new). Otherwise, please feel free to e-mail or [tweet any questions](https://twitter.com/michaelmoussa) on Gearman I might be able to help with.
