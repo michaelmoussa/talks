@@ -35,11 +35,16 @@ class Person
 
     /**
      * Returns the first name, middle initial, and last name separated by spaces.
+     * If there is no middle initial, it returns just the first and last name.
      *
      * @return string
      */
     public function getFullName()
     {
-        return $this->firstName . ' ' . $this->middleInitial . '. ' . $this->lastName;
+        if (empty($this->middleInitial)) {
+            return $this->firstName . ' ' . $this->lastName;
+        } else {
+            return $this->firstName . ' ' . $this->middleInitial . '. ' . $this->lastName;
+        }
     }
 }
