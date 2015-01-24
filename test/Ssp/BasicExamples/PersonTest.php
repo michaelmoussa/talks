@@ -6,8 +6,9 @@ class PersonTest extends \PHPUnit_Framework_TestCase
 {
     public function testFullNameConsistsOfFirstAndLastName()
     {
-        // Adding the required $middleInitial argument to the constructor breaks this test.
         $person = new Person('Michael', 'Moussa');
+
+        // The $middleInitial is optional now, but the test fails because the output is wrong.
         $this->assertSame('Michael Moussa', $person->getFullName());
     }
 

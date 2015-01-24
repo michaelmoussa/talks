@@ -26,7 +26,7 @@ class Person
      * @param string $lastName
      * @param string $middleInitial
      */
-    public function __construct($firstName, $lastName, $middleInitial)
+    public function __construct($firstName, $lastName, $middleInitial = '')
     {
         $this->firstName = $firstName;
         $this->lastName = $lastName;
