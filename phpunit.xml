@@ -9,6 +9,10 @@
         </whitelist>
     </filter>
 
+    <logging>
+        <log highLowerBound="100" lowUpperBound="99" type="coverage-html" target="build/code-coverage" />
+    </logging>
+
     <testsuites>
         <testsuite name="Ssp">
             <directory>./test</directory>
