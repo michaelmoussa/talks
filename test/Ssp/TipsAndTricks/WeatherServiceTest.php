@@ -87,7 +87,7 @@ class WeatherServiceTest extends \PHPUnit_Framework_TestCase
     public static function setUpBeforeClass()
     {
         // Just an example. Put something useful here, or nothing at all. :)
-        echo "\nWelcome to the WeatherService tests!\n";
+        // echo "\nWelcome to the WeatherService tests!\n";
     }
 
     /**
@@ -98,6 +98,6 @@ class WeatherServiceTest extends \PHPUnit_Framework_TestCase
     public static function tearDownAfterClass()
     {
         // Just an example. Put something useful here, or nothing at all. :)
-        echo "\nYou are now leaving the WeatherService tests!\n";
+        // echo "\nYou are now leaving the WeatherService tests!\n";
     }
 }
