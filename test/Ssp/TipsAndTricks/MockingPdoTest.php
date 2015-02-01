@@ -18,4 +18,12 @@ class MockingPdoTest extends \PHPUnit_Framework_TestCase
                     ->getMock();
         $someService = new SomeService($pdo);
     }
+
+    public function testMockPdoWithPhpunitUsingStub()
+    {
+        $pdo = $this->getMockBuilder('Ssp\TipsAndTricks\PdoTestHelper')
+                    // We *can't* disable the original constructor here, hence the need for the stub in our helper
+                    ->getMock();
+        $someService = new SomeService($pdo);
+    }
 }
