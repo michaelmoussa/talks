@@ -2,6 +2,8 @@
 
 namespace Ssp\TipsAndTricks;
 
+use Mockery as m;
+
 class MockingPdoTest extends \PHPUnit_Framework_TestCase
 {
     public function testOneWouldProbablyTryThisFirstButItWillFail()
@@ -24,6 +26,13 @@ class MockingPdoTest extends \PHPUnit_Framework_TestCase
         $pdo = $this->getMockBuilder('Ssp\TipsAndTricks\PdoTestHelper')
                     // We *can't* disable the original constructor here, hence the need for the stub in our helper
                     ->getMock();
+        $someService = new SomeService($pdo);
+    }
+
+    public function testOrJustUseMockery()
+    {
+        // Mockery accounts for this inconvenience by default, so just mock PDO like you'd mock anything else.
+        $pdo = m::mock('PDO');
         $someService = new SomeService($pdo);
     }
 }
