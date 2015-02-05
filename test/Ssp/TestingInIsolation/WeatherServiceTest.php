@@ -67,11 +67,5 @@ class WeatherServiceTest extends \PHPUnit_Framework_TestCase
         $currentTemperature = $weatherService->getTemperature('Miami, FL');
 
         $this->assertSame($expectedTemperature, $currentTemperature);
-
-        /*
-         * We need this so that Mockery will verify that all mocked expectations have been met.
-         * There's a trick to avoid needing to do this, which we'll see later.
-         */
-        m::close();
     }
 }
