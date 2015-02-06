@@ -38,6 +38,6 @@ also included an update to its Composer dependencies.
 
 ## Links
 
-* **Slides:** *pending*
+* **Slides:** [SSP2015-UnitTesting.pdf](SSP2015-UnitTesting.pdf?raw=true)
 * **joind.in:** http://joind.in/13437
 * **Screencast:** *pending*
