@@ -40,4 +40,4 @@ also included an update to its Composer dependencies.
 
 * **Slides:** [SSP2015-UnitTesting.pdf](SSP2015-UnitTesting.pdf?raw=true)
 * **joind.in:** http://joind.in/13437
-* **Screencast:** *pending*
+* **Screencast:** http://youtu.be/EL6vwvYr-D8
