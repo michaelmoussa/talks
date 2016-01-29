@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <filter>
+        <blacklist>
+            <directory suffix=".php">.</directory>
+        </blacklist>
+        <whitelist>
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+
+    <listeners>
+        <listener class="\Mockery\Adapter\Phpunit\TestListener" />
+    </listeners>
+
+    <logging>
+        <log highLowerBound="100" lowUpperBound="99" type="coverage-html" target="build/code-coverage" />
+    </logging>
+
+    <testsuites>
+        <testsuite name="Ssp">
+            <directory>./test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+
+<!-- See https://phpunit.de/manual/current/en/appendixes.configuration.html for more options! -->
