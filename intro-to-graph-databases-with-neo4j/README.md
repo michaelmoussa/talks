@@ -13,6 +13,5 @@ Slides, code examples, and reference materials for my Introduction to Graph Data
 If you can't get that to work, you can also just copy and paste the queries from [ecommerce.cql](ecommerce.cql) and [seven-bridges.cql](seven-bridges.cql).
 
 ## Links
-
-* **Slides:** [SSP2016-Intro-To-Graph-Databases-With-Neo4j.pdf](SSP2016-Intro-To-Graph-Databases-With-Neo4j.pdf?raw=true)
+* **Slides:** [SSP2016-Intro-To-Graph-Databases-With-Neo4j.pdf](SSP2016-Intro-to-Graph-Databases-With-Neo4j.pdf?raw=true)
 * **joind.in:** https://joind.in/talk/4f287
