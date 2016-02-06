@@ -14,6 +14,5 @@ If you can't get that to work, you can also just copy and paste the queries from
 
 ## Links
 
-* **Slides:** [SSP2016-IntroGraphDatabasesNeo4j.pdf](SSP2016-IntroGraphDatabasesNeo4j.pdf?raw=true) (<pending>)
+* **Slides:** [SSP2016-Intro-To-Graph-Databases-With-Neo4j.pdf](SSP2016-Intro-To-Graph-Databases-With-Neo4j.pdf?raw=true)
 * **joind.in:** https://joind.in/talk/4f287
-* **Screencast:** `<pending>`
