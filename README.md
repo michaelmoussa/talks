@@ -11,6 +11,9 @@ Index of slides, code, links, etc. for all talks I've given.
 ## Sunshine PHP 2016
 * [Intro to Graph Databases with Neo4j](intro-to-graph-databases-with-neo4j)
 
+## ZendCon 2016
+* [Job Queues with Gearman](gearman/zendcon2016/ZendCon2016-Job-Queues-with-Gearman-16x9.pdf)
+
 ## Questions / Comments
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
 * **joind.in:** [mmoussa](https://joind.in/user/mmoussa)
