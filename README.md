@@ -15,6 +15,9 @@ Index of slides, code, links, etc. for all talks I've given.
 * [Job Queues with Gearman](gearman/zendcon2016/ZendCon2016-Job-Queues-with-Gearman-16x9.pdf)
 * [Intro to Graph Databases with Neo4j](intro-to-graph-databases-with-neo4j/zendcon2016)
 
-## Questions / Comments
+## Questions / Comments / Problems
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
 * **joind.in:** [mmoussa](https://joind.in/user/mmoussa)
+* **Open an issue:** [https://github.com/michaelmoussa/talks/issues](https://github.com/michaelmoussa/talks/issues)
+
+I really, truly want to help, and it's not a bother at all, so please reach out if you have questions or trouble with any of this!
