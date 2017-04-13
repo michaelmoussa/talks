@@ -18,6 +18,10 @@ Index of slides, code, links, etc. for all talks I've given.
 ## Sunshine PHP 2017
 * [MySQL: Analysis, understanding, and optimization of queries](mysql-query-optimization/ssp2017)
 
+## Lone Star PHP 2017
+* [Job Queues with Gearman](gearman/lonestar2017/LoneStar2017-Job-Queues-with-Gearman-16x9.pdf)
+* [Intro to Graph Databases with Neo4j](intro-to-graph-databases-with-neo4j/lonestar2017)
+
 ## Questions / Comments / Problems
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
 * **joind.in:** [mmoussa](https://joind.in/user/mmoussa)
