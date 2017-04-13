@@ -10,14 +10,6 @@ $client = \GraphAware\Neo4j\Client\ClientBuilder::create()
     ->build();
 $entityManager = new \GraphAware\Neo4j\OGM\EntityManager($client);
 
-/** @var \GraphAware\Bolt\Result\Result $result */
-$result = $client->run(
-    'MATCH (customer:Customer {email: { email }})-[cpo:PLACED]->
-           (order)-[ocp:CONTAINS]->(product)
-    RETURN customer, cpo, order, ocp, product',
-    ['email' => 'bob@example.com']
-);
-
 $customer = $entityManager
                 ->getRepository(Customer::class)
                 ->findOneBy('email', 'bob@example.com');
