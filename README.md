@@ -23,6 +23,9 @@ Index of slides, code, links, etc. for all talks I've given.
 * [Intro to Graph Databases with Neo4j](intro-to-graph-databases-with-neo4j/lonestar2017)
 * [MySQL: Analysis, understanding, and optimization of queries](mysql-query-optimization/lonestar2017)
 
+## php[tek] 2017
+* [MySQL Query Analysis and Optimization](mysql-query-optimization/phptek2017)
+
 ## Questions / Comments / Problems
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
 * **joind.in:** [mmoussa](https://joind.in/user/mmoussa)
