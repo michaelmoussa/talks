@@ -1,5 +1,5 @@
 # Talks
-Index of slides, code, links, etc. for all talks I've given.
+Index of slides, code, links, etc. for most talks I've given.
 
 ## South Florida PHP User Group
 * [Unit Testing](unit-testing/soflophp)
@@ -25,6 +25,10 @@ Index of slides, code, links, etc. for all talks I've given.
 
 ## php[tek] 2017
 * [MySQL Query Analysis and Optimization](mysql-query-optimization/phptek2017)
+
+## Longhorn PHP 2018
+* [Essential AWS for PHP Applications](essential-aws-for-php-applications/longhorn2018)
+  * Also presented at Sunshine PHP 2018 and Midwest PHP 2018.
 
 ## Questions / Comments / Problems
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
