@@ -27,8 +27,12 @@ Index of slides, code, links, etc. for most talks I've given.
 * [MySQL Query Analysis and Optimization](mysql-query-optimization/phptek2017)
 
 ## Longhorn PHP 2018
-* [Essential AWS for PHP Applications](essential-aws-for-php-applications/longhorn2018)
+* [Essential AWS for PHP Applications](essential-aws-for-php-applications/longhornphp2018)
   * Also presented at Sunshine PHP 2018 and Midwest PHP 2018.
+* [CICD for PHP on AWS](cicd-for-php-on-aws/longhornphp2018)
+
+## SunshinePHP 2019
+* [CICD for PHP on AWS](cicd-for-php-on-aws/sunshinephp2019)
 
 ## Questions / Comments / Problems
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
