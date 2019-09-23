@@ -34,6 +34,9 @@ Index of slides, code, links, etc. for most talks I've given.
 ## SunshinePHP 2019
 * [CICD for PHP on AWS](cicd-for-php-on-aws/sunshinephp2019)
 
+## Cascadia PHP 2019
+* [Machine Learning: A Beginner's Practical Guide](ml-a-beginners-practical-guide/cascadiaphp2019)
+
 ## Questions / Comments / Problems
 * **Twitter:** [@michaelmoussa](https://twitter.com/michaelmoussa)
 * **joind.in:** [mmoussa](https://joind.in/user/mmoussa)
