@@ -22,6 +22,6 @@
         }
     },
     "require": {
-        "guzzlehttp/guzzle": "~5.1"
+        "guzzlehttp/guzzle": "~6.5"
     }
 }
